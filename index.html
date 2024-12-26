@@ -32,6 +32,7 @@
     <!-- Header section end -->
 
     <!-- Content section start -->
+<!--      
     <div class=" border-[red] border-[1px]">
           <div class="absolute z-10 text-white h-[80vh] flex flex-col flex-center justify-center px-5 mx-5">
             <img class="white-logo h-[60px]" src="https://gmedia.playstation.com/is/image/SIEPDC/ps5-badge-02-en-11jun20?$800px--t$" alt="" height="200">
@@ -41,16 +42,20 @@
 
             <video class="relative" autobuffer="true" muted="true" autoplay="true" loop="true" playsinline="true" webkit-playsinline="true" data-poster="https://gmedia.playstation.com/is/image/SIEPDC/ps5-overview-hero-evergreen-desktop-video-thumb-01-en-03jul24" poster="https://gmedia.playstation.com/is/image/SIEPDC/ps5-overview-hero-evergreen-desktop-video-thumb-01-en-03jul24" data-loaded="true" style=""><source type="video/mp4" data-src="https://gmedia.playstation.com/is/content/SIEPDC/global_pdc/en/hardware/ps5/channel-specific-content/pdc/2024/ps5-overview/hero/ps5-overview-phnl-hero-desktop-video-01-en-30oct24.mp4" src="https://gmedia.playstation.com/is/content/SIEPDC/global_pdc/en/hardware/ps5/channel-specific-content/pdc/2024/ps5-overview/hero/ps5-overview-phnl-hero-desktop-video-01-en-30oct24.mp4"></video>
   </div>
+   -->
   <!-- slogan Section  Start -->
+<!--    
   <div class="h-[50vh] flex flex-col  justify-center text-center border-[red] border-[1px]">
     <div class="border-[red] border-[1px]">
     <h2 class="text-[40px] text-black text-2xl text-black-[900] border-[red] border-[1px] font-bold">PLAY LIKE NEVER BEFORE®</h2>
     <p class="px-[200px] text-[15px] border-[red] border-[1px] flex justify-center text-center py-4 font-semibold text-[gray]">Experience lightning-fast loading with an ultra-high speed SSD, deeper immersion with support for haptic feedback1, adaptive triggers1 and 3D Audio1, and an incredible collection of PlayStation games.</p>
     </div>
-  </div>
+  </div> -->
+
     <!-- slogan Section  end -->
 
     <!-- PlayStation®5 Section Start -->
+<!--      
 <div class="h-[80vh] border-[red] border-[1px] flex flex-col  justify-center ">
   <div class="absolute text-white z-10   border-[red] border-[1px] px-[200px]">
     <h2 class="text-2xl font-bold border-[red] border-[1px]">PlayStation®5 Pro</h2>
@@ -61,8 +66,65 @@
     <img src="https://gmedia.playstation.com/is/image/SIEPDC/ps5-pro-overview-homepage-hero-desktop-background-01-en-16aug24?$4000px$" alt="">
   </div>
  
-</div>
+</div> -->
+
    <!-- PlayStation®5 Section End -->
-  
+  <section class="w-[100%]   border-[red] border-[1px] ">
+    <div class=" px-[100px] max-auto  border-[red] border-[1px]  ">
+      <h2 class="sm:text-[50px] text-[40px] font-bold text-black  text-center border-[red] border-[1px]">Frequently Asked Quetion</h2>
+ 
+      <div class="w-[1000px]   max-auto   border-[black] border-[1px]  flex flex-col  "> 
+        <div class=" border-[blue] border-[1px] mb-[15px] ">
+          <div class="p-4 text-[20px] relative border-b-[2px] border-[black] hover:bg-[blue] duration-300 cursor-pointer faqQuestion">
+            <h3 class="">Can I play my PS4 games on my PS5 console?</h3>
+            <span class="absolute right-[20px] top-[15px] ">+</span>
+          </div>
+          <div class=" scale-y-0 h-[0px] origin-top duration-300 ">
+            <p>
+              Yes. PS5 consoles are backwards compatible with PS4 games, with over 4000 titles ready to play. Find out more here: PS4 games playable on PS5 consoles. 
+            </p>
+          </div>
+
+        </div>
+        <div class=" border-[blue] border-[1px] mb-[15px] ">
+          <div class="p-4 text-[20px] relative border-b-[2px] border-[black] hover:bg-[blue] duration-300 cursor-pointer faqQuestion">
+            <h3 class="">Can I play my PS4 games on my PS5 console?</h3>
+            <span class="absolute right-[20px] top-[15px] ">+</span>
+          </div>
+          <div class=" scale-y-0 h-[0px] origin-top duration-300">
+            <p>
+              Yes. PS5 consoles are backwards compatible with PS4 games, with over 4000 titles ready to play. Find out more here: PS4 games playable on PS5 consoles. 
+            </p>
+          </div>
+
+        </div>
+       
+       
+       
+        
+
+      </div>
+
+    </div>
+  </section>
 </body>
+<script>
+  let allQuestion = document.querySelectorAll(".faqQuestion");
+  allQuestion.forEach((v,index)=>{
+      v.addEventListener("click",()=>{
+
+      v.nextElementSibling.classList.toggle("h-[auto]");
+      v.nextElementSibling.classList.toggle("scale-y-100");
+      v.nextElementSibling.classList.toggle("p-[20px]");
+
+      allQuestion.forEach((el,index)=>{
+        if(i!=index){
+          el.nextElementSibling.classList.remove("h-[auto]"," scale-y-100",'p-[20px]')
+        }
+
+      })
+
+    })
+  });
+</script>
 </html>
