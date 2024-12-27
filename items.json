@@ -1,0 +1,42 @@
+[
+      {
+        "id": 1,
+        "name": "The Last of Us Part II",
+        "image": "https://imgs.search.brave.com/WaHwqymt8bUxlQ7EdwquIfSXhQT2_QtDSt3G8V2de3E/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzU0L2U5/LzdiLzU0ZTk3Yjc1/MmZkZmNmNGJiYmE0/MjBmNjBmYzA3NjMz/LmpwZw",
+        "genre": ["Action", "Adventure"],
+        "description": "A post-apocalyptic adventure game following Ellie as she navigates a dangerous world filled with enemies and emotional challenges.",
+        "price": 5999
+      },
+      {
+        "id": 2,
+        "name": "God of War Ragnarök",
+        "image": "https://imgs.search.brave.com/ALC9KQV1RWmH1WaWLr8s_wGAp5xef9FHjpnQjb36N-g/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMwLmdhbWVyYW50/aW1hZ2VzLmNvbS93/b3JkcHJlc3Mvd3At/Y29udGVudC91cGxv/YWRzLzIwMjQvMTIv/bWl4Y29sbGFnZS0w/OC1kZWMtMjAyNC0w/MS0yMi1wbS01MzAu/anBn",
+        "genre": ["Action", "Adventure", "Mythology"],
+        "description": "Kratos and Atreus embark on an epic journey through Norse mythology to prevent Ragnarok.",
+        "price": 6999
+      },
+      {
+        "id": 3,
+        "name": "Horizon Forbidden West",
+        "image": "https://imgs.search.brave.com/liK1LiEfzoVawEFq-brgOeTnTHw1no7OYnUmLEqURM8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL00v/TVY1Qk1qVTVZelUx/T1RJdE1ETTVZUzAw/Wm1GbExUZ3haR1F0/T0RZek1EbGlNVFF5/WkRka1hrRXlYa0Zx/Y0djQC5qcGc",
+        "genre": ["Action", "RPG", "Open World"],
+        "description": "Explore vast landscapes and face mechanized creatures in this epic open-world RPG.",
+        "price": 5999
+      },
+      {
+        "id": 4,
+        "name": "Spider-Man: Miles Morales",
+        "image": "https://imgs.search.brave.com/VJFilHtM_F_IdDuJ-ze0jbYJdKmDO5lA7Ue-nmCdvwk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL00v/TVY1QlpUYzBNamRq/TjJRdE9UYzVOaTAw/TjJOakxUazROR1F0/TVdZek9ERTFPVGRo/T1RBelhrRXlYa0Zx/Y0djQC5qcGc",
+        "genre": ["Action", "Adventure", "Superhero"],
+        "description": "Swing through New York as Miles Morales, a new Spider-Man with unique powers and a story to tell.",
+        "price": 4999
+      },
+      {
+        "id": 5,
+        "name": "Gran Turismo 7",
+        "image": "https://imgs.search.brave.com/aGApEHALu2piPD2C2Mo86oMiwOWX12fedTOKgaoZ7rU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL00v/TVY1Qk1EZGhNekpo/TURBdE16VXdOeTAw/TldObUxXRXlNalV0/WldRMk5HRmxZVFJp/TjJKa1hrRXlYa0Zx/Y0djQC5qcGc",
+        "genre": ["Racing", "Simulation"],
+        "description": "Experience realistic racing with stunning graphics and immersive gameplay.",
+        "price": 6999
+      }
+]

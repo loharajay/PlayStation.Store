@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Home</title>
-        <script src="https://cdn.tailwindcss.com"></script>
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
 <body>
     <header class="max-auto py-1 text-black flex border-[gray] border-[1px]">
         <div class="">
@@ -16,8 +16,7 @@
           <div class="grow h-14  flex flex-center   justify-center">
             <ul class="style-none gap-5  flex  flex-center   ">
                 <li class="place-content-center">PlayStation®5</li>
-                <li class="place-content-center"> Games</li>
-                <li class="place-content-center"> Accessories</li>
+                <li class="place-content-center"><a href="games.html"> Games</a></li>
                 <li class="place-content-center"> More features</li>
                 <li class="place-content-center">Entertainment</li>
             </ul>
@@ -27,34 +26,47 @@
             <i class="fa-solid fa-magnifying-glass place-content-center"></i>
           </div>
        
-
     </header>
 
-   <div class=" flex flex-col  justify-center text-center ">
-    <div class="w-[100%] mx-auto absolute z-10 text-white h-[113vh] flex flex-col flex-center justify-center px-[400px] mx-5 backdrop-blur">
-        <h2 class="text-white text-6xl font-bold flex flex-col  justify-center ">PS5 Games</h2>
-        <p class="w-[500px] px-5 text-[15px]  py-4">Discover the games you want, from exclusive blockbusters to innovative indies, all brought to life with the power of the PS5™ console.</p>  
+
+    <!-- product section Start -->
+<div class="flex">
+
+  <div class="m-[50px]  w-[400px]  overflow-hidden rounded-[10px]">
+    <img class=" w-[400px] h-[550px]  rounded-[10px] hover:scale-125 duration-300" src="https://imgs.search.brave.com/ALC9KQV1RWmH1WaWLr8s_wGAp5xef9FHjpnQjb36N-g/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMwLmdhbWVyYW50/aW1hZ2VzLmNvbS93/b3JkcHJlc3Mvd3At/Y29udGVudC91cGxv/YWRzLzIwMjQvMTIv/bWl4Y29sbGFnZS0w/OC1kZWMtMjAyNC0w/MS0yMi1wbS01MzAu/anBn" alt="">
+  </div>
+  <div class="border-[red] border-[1px] m-[50px]">
+    <h2 class="text-4xl font-bold m-[50px]">
+      Game Name : God Of Ragnorok
+    </h2>
+    <p  class="text-2xl m-[50px]">
+      Genre: Racing , Simulation
+    </p>
+    <p class="text-2xl m-[50px]">
+      Description: Experience realistic racing with stunning graphics and immersive gameplay.
+    </p>
+
+    <h4 class="text-3xl m-[50px]">
+      Price : 5000
+    </h4>
+    <div class="flex justify-center text-white">
+      <button class="border-[2px] border-[gray] m-3 p-5 rounded-[10px] bg-[blue] ">
+        <i class="fa-solid fa-cart-shopping" style="color: #fcfafa;"></i> Add To Cart
+      </button>
+      <button class="border-[2px] border-[gray] m-3 p-5 rounded-[10px] bg-[blue]">
+        <i class="fa-solid fa-cart-shopping" style="color: #fffefe;"></i>
+        Buy Now
+      </button>
     </div>
-    <video class="media-block__video lozad lazy-loaded relative" autobuffer="true" muted="true" autoplay="true" loop="true" playsinline="true" webkit-playsinline="true" data-poster="https://gmedia.playstation.com/is/image/SIEPDC/ps5-games-hero-banner-desktop-01-en-12jul23" poster="https://gmedia.playstation.com/is/image/SIEPDC/ps5-games-hero-banner-desktop-01-en-12jul23" data-loaded="true"><source type="video/mp4" data-src="https://gmedia.playstation.com/is/content/SIEPDC/global_pdc/en/hardware/ps5/channel-specific-content/pdc/2023/ps5-overview/video-brand-billboard/ps5-feel-it-now-video-block-01-en-02apr24.mp4" src="https://gmedia.playstation.com/is/content/SIEPDC/global_pdc/en/hardware/ps5/channel-specific-content/pdc/2023/ps5-overview/video-brand-billboard/ps5-feel-it-now-video-block-01-en-02apr24.mp4"></video>
+
+
+  </div>
+  
 </div>
 
-<!-- Games List Start -->
-<div>
+    <!-- product section End -->
     
-    <div id="data-output" class="flex justify-center">
-        
-       
-        
-    </div>
-
-
-    
- </div>
-
-<!-- Games List end -->
- 
-
-     <!-- Footer Section Start -->
+    <!-- Footer Section Start -->
   <footer>
     <div class="bg-[blue] ">
       <div class=" px-[20px] flex text-3xl p-[20px]">
@@ -81,39 +93,12 @@
       </div>
     </div>
     <div class="text-center text-white p-3 border-t-[2px] border-[white]" >
-        <h3>All Right Riserved® </h3>
+        <h3>All Right Riserved®</h3>
     </div>
 </div>
   </footer>
 
  <!-- Footer Section End -->
-    
 </body>
-<script>
-  
-    fetch('./items.json')
-          .then(function(response){
-            return response.json();
 
-          })
-          .then(function(products){
-            let placeholder =document.querySelector("#data-output");
-
-            let out = '';
-            console.log(products);
-            for(let product of products){
-                out +=` 
-                <div class="h-[200px] w-[200px]  m-5 overflow-hidden rounded-[20px] hover:border-[gray] border-[2px] duration-300">
-                 <img class=" hover:scale-125 duration-300" src="${product.image}" alt="">
-              </div>
-                `;
-            }
-            placeholder.innerHTML =out;
-          })
-
-     
-
-
- 
-  </script>
 </html>
