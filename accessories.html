@@ -43,35 +43,15 @@
         <h5 class="font-bold flex flex-center justify-center text-2xl pt-7 text-[blue]">The latest PlayStation accessories</h5>
       <p class=" flex flex-center justify-center  p-1 text-center">Click to see more of the newest PlayStation accessories available now or coming soon.
 
-    </div>
-
-    <div class="flex">
-      <div class=" w-[400px]  bg-[rgb(246 246 246)] m-5 p-3 rounded-[20px] text-center flex justify-center items-center flex-col hover:scale-105 hover:border-[2px] border-[blue] duration-300 ">
-        <img class="group w-[200px] hover:scale-125 duration-300 p-3" src="https://gmedia.playstation.com/is/image/SIEPDC/ps-portal-remote-player-ui-product-strand-02-en-29aug23?$1600px--t$" alt="">
-        <p class="text-xl p-1">PlayStation Portal Remote player</p>
-        <p class="items-center text-center p-1 ">Play your PS5® console over your home Wi-Fi with console quality controls using PlayStation Portal remote player.3</p>
-
       </div>
+
+     <div class="w-[100%] flex grid  grid-cols-4 p-5" id="product-data">
+     
       
      
-      <div class=" w-[400px]  bg-[rgb(246 246 246)] m-5 p-1 rounded-[20px] text-center flex justify-center items-center flex-col hover:scale-105 hover:border-[2px] border-[blue] duration-300">
-        <img class="w-[200px] hover:scale-125 duration-300 pb-5" src="https://gmedia.playstation.com/is/image/SIEPDC/access-controller-image-block-02-en-25jul23?$1600px--t$" alt="">
-        <p class="text-xl p-1">Access™ controller</p>
-        <p class="items-center text-center p-1">Introducing the Access controller, a versatile controller kit that can be customised to meet players’ diverse needs. </p>
-
-      </div>
-      <div class="group  w-[400px]  bg-[rgb(246 246 246)] m-5 p-1 rounded-[20px] text-center flex justify-center items-center flex-col hover:scale-105 hover:border-[2px] border-[blue] duration-300">
-        <img class="group w-[200px] hover:scale-125 duration-300 pb-5" src="https://gmedia.playstation.com/is/image/SIEPDC/PULSE-Elite-headset-image-block-01-en-06sep23?$1600px--t$" alt="">
-        <p class="text-xl p-1">PULSE Elite™ wireless headset</p>
-        <p class="items-center text-center p-1">Surround yourself with lifelike sound in your favourite games with the PULSE Elite™ wireless headset. </p>
-
-      </div>
-      <div class="group  w-[400px]  bg-[rgb(246 246 246)] m-5 p-1 rounded-[20px] text-center flex justify-center items-center flex-col hover:scale-105 hover:border-[2px] border-[blue] duration-300">
-        <img class="group w-[200px] hover:scale-125 duration-300 p-5" src="https://gmedia.playstation.com/is/image/SIEPDC/PULSE-Explore-earbuds-hero-image-block-01-en-08sep23?$1600px--t$" alt="">
-        <p class="text-xl p-1">PULSE Explore™ wireless earbuds</p>
-        <p class="items-center text-center p-1">Enjoy lifelike gaming audio wherever play takes you with the PULSE Explore wireless earbuds. </p>
-
-      </div>
+     
+      
+     
       
     </div>
 
@@ -109,4 +89,35 @@
     </footer> 
 
 </body>
+<script>
+   fetch('./productItems.json')
+          .then(function(response){
+            return response.json();
+
+          })
+          .then(function(products){
+            let placeholder =document.querySelector("#product-data");
+
+            let out = '';
+            console.log(products);
+            for(let product of products){
+                out +=` 
+                <a href="productPage.html"> <div class=" w-[250px] shadow-2xl bg-[rgb(246 246 246)] m-5 p-5 rounded-[20px] text-center flex justify-center items-center flex-col hover:scale-110  duration-300 ">
+        <img class="group w-[200px] hover:scale-150 duration-300 p-1" src="${product.image}" alt="">
+        <p class="text-xl p-1">${product.name}</p>
+        <p class="items-center text-center p-1 text-[10px]">${product.description}</p>
+
+         </div></a>
+                `;
+            }
+            placeholder.innerHTML =out;
+          })
+
+     
+
+
+
+
+
+</script>
 </html>

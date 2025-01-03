@@ -1,0 +1,58 @@
+[
+    {
+      "id": 1,
+      "name": "PlayStation Portal™ Remote Player for PS5® console",
+      "name-description":"Play your PS5® console over your home Wi-Fi with console quality controls using PlayStation Portal remote player.3",
+      "image": "https://gmedia.playstation.com/is/image/SIEPDC/ps-portal-remote-player-image-block-01-en-22aug23?$1600px--t$",
+      
+      "description": "PlayStation Portal™ Remote Player gives you access to the games on your PS5 over your home Wi-Fi1, letting you jump right into gaming without needing to play on a TV.",
+      "price": 23990 
+
+    },
+    {
+      "id": 2,
+      "name": "Access™ controller",
+      "name-description":"Introducing the Access controller, a versatile controller kit that can be customised to meet players’ diverse needs. ",
+      "image": "https://gmedia.playstation.com/is/image/SIEPDC/access-controller-image-block-02-en-25jul23?$1600px--t$",
+      "description": "Introducing the Access controller, a versatile controller kit that can be customised to meet players’ diverse needs, designed in close collaboration with the accessibility community to help players with disabilities play more comfortably for longer.",
+      "price": 5499
+
+      
+        },
+    {
+      "id": 3,
+      "name": "PULSE Elite™ wireless headset",
+      "image": "https://gmedia.playstation.com/is/image/SIEPDC/PULSE-Elite-headset-image-block-01-en-06sep23?$1600px--t$",
+      "description": "Surround yourself with lifelike sound in your favourite games with the PULSE Elite™ wireless headset. ",
+      "price": 12990
+      
+    },
+    {
+      "id": 4,
+      "name": "PULSE Explore™ wireless earbuds",
+      "image": "https://gmedia.playstation.com/is/image/SIEPDC/PULSE-Explore-earbuds-hero-image-block-01-en-08sep23?$1600px--t$",
+      "description": "Enjoy lifelike gaming audio wherever play takes you with the PULSE Explore wireless earbuds. ",
+      "price": 18780
+    },
+    {
+      "id": 5,
+      "name": "Chroma collection",
+      "image": "https://gmedia.playstation.com/is/image/SIEPDC/dualsense-teal-image-block-01-en-08oct24?$1600px--t$",
+      "description": "Introducing the Chroma Collection – iridescent PlayStation®5 accessories that shine, shimmer and shift colour from every angle.",
+      "price": 5699
+    },
+    {
+      "id": 6,
+      "name": "HD Camera",
+      "image": "https://gmedia.playstation.com/is/image/SIEPDC/ps5-hd-camera-image-block-01-en-17oct23?$1600px--t$",
+      "description": "Put yourself at the center of your gameplay sharing with the HD camera for PS5 consoles. ",
+      "price": 4400
+    },
+    {
+      "id": 7,
+      "name": "Flight sticks",
+      "image": "https://gmedia.playstation.com/is/image/SIEPDC/T-flight-Hotas-4-image-block-01-en-28mar22?$1600px--t$",
+      "description": "Take to the skies and fly with total control on PS4 or PS5 consoles thanks to the life-sized, super-responsive throttle, dual-rudder joystick and fully mappable buttons contained in this officially licensed flight stick from Thrustmaster.",
+      "price": 2199
+    }
+]
