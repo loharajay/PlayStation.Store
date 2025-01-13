@@ -102,21 +102,16 @@
             console.log(products);
             for(let product of products){
                 out +=` 
-                <a href="productPage.html"> <div class=" w-[250px] shadow-2xl bg-[rgb(246 246 246)] m-5 p-5 rounded-[20px] text-center flex justify-center items-center flex-col hover:scale-110  duration-300 ">
-        <img class="group w-[200px] hover:scale-150 duration-300 p-1" src="${product.image}" alt="">
-        <p class="text-xl p-1">${product.name}</p>
-        <p class="items-center text-center p-1 text-[10px]">${product.description}</p>
+                <a href="productPage.html"> <div class="w-[250px] h-[300px] shadow-2xl bg-[rgb(246 246 246)] m-5 p-5 rounded-[20px] text-center flex justify-center items-center flex-col hover:scale-110  duration-300 ">
+                <img class="group w-[200px] hover:scale-150 duration-300 p-1" src="${product.image}" alt="">
+                <p class="text-xl p-1">${product.name}</p>
+                <p class="items-center text-center p-1 text-[10px]">${product.description}</p>
 
-         </div></a>
+               </div></a>
                 `;
             }
             placeholder.innerHTML =out;
           })
-
-     
-
-
-
 
 
 </script>
